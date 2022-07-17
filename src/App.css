@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-flex-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height:100vh;
+  width:100vw;
+  background-color: rgb(255, 255, 255);
+  margin:0px;
+  padding: 0px;
+}
+.app-flex-item{
+ background-color: rgb(255, 255, 255);
+ border:1px solid rgb(255, 255, 255);
+ margin: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.offer-bar{
+flex:6%;
+font-size: 25px;
+word-spacing: 6px;
+text-align: center;
+color: rgb(121, 121, 121);
+border: 1px solid rgb(206, 205, 205);
+border-style: none none solid none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.title{
+display: flex;
+flex:5%;
+border: 1px solid rgb(255, 255, 255);
+border-style: none none solid none;
+}
+.titleImage{
+  height:4.3vh;
+  width: 27vh;
+  padding: 5px;
+}
+.routing{
+display: flex;
+flex-direction: column;
+flex:84%;
+}
+nav{
+  display: flex;
+  flex: 5%;
+  background-color: rgb(242, 242, 242);
+  text-decoration: none;
+  flex-wrap: wrap;
+  padding:0px;
+}
+main{
+  flex:95%
+}
+.footer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex:5%;
+background-color:rgb(231, 250, 253);
+align-content: center;
+} 
+.icon{
+  height: 30px;
+  width:30px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2vw;
+}
+.instagram{
+  background: url('./components/pictures/instagram.png') no-repeat;
+  background-size: 30px;
+}
+.instagram:hover{
+  background: url('./components/pictures/instagram1.png') no-repeat;
+  background-size: 30px;
+}
+.facebook{
+  background: url('./components/pictures/facebook.png') no-repeat;
+  background-size: 30px;
+}
+.facebook:hover{
+  background: url('./components/pictures/facebook1.png') no-repeat;
+  background-size: 30px;
+}
+.printerest{
+  background: url('./components/pictures/pinterest.png') no-repeat;
+  background-size: 30px;
+}
+.printerest:hover{
+  background: url('./components/pictures/printerest1.png') no-repeat;
+  background-size: 30px;
+}
+.app-nav{
+  text-decoration: none;
+  margin-left: 2vw;
+  font-size: 3vh;
+  color:black;
+  transition: 150ms;
+}
+.app-nav:hover{
+  text-decoration: underline;
+}
+.app-nav-onlyforhome{
+  text-decoration: none;
+  margin-left: 0.5vw;
+  font-size: 3vh;
+  color:black;
+  transition: 150ms;
+}
+.app-nav-onlyforhome:hover{
+  text-decoration: underline;
 }

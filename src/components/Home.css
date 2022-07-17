@@ -1,0 +1,196 @@
+
+.home{
+    height: 100%;
+    width:100%;
+    background-color: white;
+}
+.mainoffer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 30vw;
+background-color: rgb(255, 255, 255);
+}
+.categories{
+/* height: 60vw; */
+border-color: rgb(255, 255, 255);
+}
+
+.piconleft{
+flex:20%;
+background-color: rgb(255, 255, 255);
+transform: rotate(0deg);
+}
+.mainofferimg{
+flex: 60%;
+background-color: rgb(255, 255, 255);
+transform: rotate(0deg);
+}
+.piconright{
+flex:20%;
+background-color: rgb(255, 255, 255);
+transform: rotate(0deg);
+}
+.piconleft,.piconright,.mainofferimg{
+    margin:6px;
+    /* padding: 6px; */
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 2px;
+    box-shadow: 5px 3px 5px rgb(194, 187, 187);
+}
+.piconleft,.piconright,.mainofferimg{
+    margin:10px;
+    transition: 150ms;
+}
+.piconleft:hover,.piconright:hover,.mainofferimg:hover{
+    filter: contrast(1.2);
+    filter: saturate(1.4);
+}
+.piconleft:active,.piconright:active,.mainofferimg:active{
+    filter: contrast(0);
+    filter: saturate(0);
+}
+@media (max-width:625px){
+    .mainoffer{
+        height: 50vw;
+    }
+    .piconleft,.piconright{
+        flex:30%;
+    }
+    .mainofferimg{
+        flex: 40%;
+    }
+}
+@media (max-width:410px){
+    .mainoffer{
+        height: 54vw;
+    }
+    .piconleft{
+        flex: 0%;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        box-shadow: 0px 0px 0px;
+    }
+    .mainofferimg{flex:98%;}
+    .piconright{
+        flex: 0%;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        box-shadow: 0px 0px 0px;
+    }
+}
+
+/*categories*/
+.categories{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:center;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.cat-item{
+    background-color: rgb(255, 255, 255);
+    margin:0px;
+    height: 20vw;
+    width:22vw;
+    transition: 150ms;
+    color: white;
+}
+fieldset{
+    border-color: rgb(255, 255, 255,0);
+}
+img[alt='cat']{
+    box-shadow:5px 5px 5px rgb(208, 208, 208) ;
+    transition: 150ms;
+}
+img[alt='cat']:hover{
+    filter: contrast(1.2);
+    filter: saturate(1.4);
+    filter: invert(6%);
+}
+.cat-item:hover{
+    color: rgb(105, 105, 105);
+    transform: scale(1.03);
+    border-radius: 3px;
+    border: 1px solid rgb(207, 207, 207);
+}
+img[alt='cat']:active{
+    filter: contrast(1.4);
+    filter: saturate(1.8);
+    filter: brightness(100%);
+    box-shadow: 0px 0px 0px rgb(208, 208, 208);
+}
+.cat-item:active{
+    color: white;
+    border-color: white;
+}
+
+@media (max-width:970px){
+    .cat-item{
+        background-color: rgb(255, 255, 255);
+        margin:10px;
+        height: 30vw;
+        width:35vw;
+        transition: 150ms;
+        color: rgb(69, 69, 69);
+    }
+    img[alt='cat']:active{
+        filter: contrast(1.4);
+        filter: saturate(1.8);
+        filter: brightness(100%);
+        box-shadow: 0px 0px 0px rgb(208, 208, 208);
+    }
+    fieldset{
+        border-color: rgb(69, 69, 69);
+        border-style: solid none none none;
+    }
+    .cat-item:hover{
+        color: rgb(105, 105, 105);
+        transform: scale(1.03);
+        border-radius: 3px;
+        border: 1px solid rgb(207, 207, 207);
+        border-style: solid none none none;
+    }
+    .cat-item:active{
+        color: white;
+        border-color: white;
+    }
+}
+@media (max-width:675px){
+    fieldset{
+        border-color: rgb(69, 69, 69);
+        border-style: solid none none none;
+    }
+    .categories{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-item{
+        color: rgb(69, 69, 69);
+        height:79vw;
+        width: 50vw;
+    }
+    img[alt='cat']:active{
+        filter: contrast(1.4);
+        filter: saturate(1.8);
+        filter: brightness(100%);
+        box-shadow: 0px 0px 0px rgb(208, 208, 208);
+    }
+    .cat-item:hover{
+        color: rgb(105, 105, 105);
+        transform: scale(1.03);
+        border-radius: 3px;
+        border: 1px solid rgb(207, 207, 207);
+        border-style: solid none none none;
+    }
+    .cat-item:active{
+        color: white;
+        border-color: white;
+    }
+
+}
