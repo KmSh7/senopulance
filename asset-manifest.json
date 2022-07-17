@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/senopulance/static/css/main.d4aab2f0.css",
+    "main.js": "/senopulance/static/js/main.c305fdbf.js",
+    "static/js/787.ddade4ab.chunk.js": "/senopulance/static/js/787.ddade4ab.chunk.js",
+    "static/media/mainimg2.1.jpg": "/senopulance/static/media/mainimg2.1.1d5d0c4e0c6d3ceae09a.jpg",
+    "static/media/mainimg3.jpg": "/senopulance/static/media/mainimg3.896d19adc03074796f68.jpg",
+    "static/media/leftpic1.jpg": "/senopulance/static/media/leftpic1.c7e92a7eed5b34665459.jpg",
+    "static/media/rightpic1.jpg": "/senopulance/static/media/rightpic1.ea1a1173a84c42abf6e6.jpg",
+    "static/media/jwel1.2.jpg": "/senopulance/static/media/jwel1.2.853438eae6d62d543029.jpg",
+    "static/media/men2.jpg": "/senopulance/static/media/men2.792bd042ad97b0d91d4c.jpg",
+    "static/media/women1.6.jpg": "/senopulance/static/media/women1.6.a93e9a5f5185130869af.jpg",
+    "static/media/summer1.jpg": "/senopulance/static/media/summer1.7a253bdf1d635a4e2e48.jpg",
+    "static/media/jwel2.1.jpg": "/senopulance/static/media/jwel2.1.ad9257e041c16a605e5d.jpg",
+    "static/media/men1.jpg": "/senopulance/static/media/men1.fbd57418be5545fdd84c.jpg",
+    "static/media/women2.4.jpg": "/senopulance/static/media/women2.4.9eeb011ba129551fb178.jpg",
+    "static/media/sum2.15.jpg": "/senopulance/static/media/sum2.15.b66dc468e6cc77436a57.jpg",
+    "static/media/op2.3.jpg": "/senopulance/static/media/op2.3.806a28315bed94df5619.jpg",
+    "static/media/item1.1.jpg": "/senopulance/static/media/item1.1.ad4386720d44be26285f.jpg",
+    "static/media/sale2.1.jpg": "/senopulance/static/media/sale2.1.c8fc57b5a1052a6ce70a.jpg",
+    "static/media/op1.4.jpg": "/senopulance/static/media/op1.4.8eb9b20f9d3bd8bebc60.jpg",
+    "static/media/item2.1.jpg": "/senopulance/static/media/item2.1.dae1bce76cec5e5f8a92.jpg",
+    "static/media/sale1.3.jpg": "/senopulance/static/media/sale1.3.7c098212a3f6c992428e.jpg",
+    "static/media/win2.1.jpg": "/senopulance/static/media/win2.1.35ed5065e3fd3041520d.jpg",
+    "static/media/win1.1.jpg": "/senopulance/static/media/win1.1.283a5fb231c2c1997143.jpg",
+    "static/media/mainofferimg1.jpg": "/senopulance/static/media/mainofferimg1.502a84f9aae2baac35e5.jpg",
+    "static/media/piconright2.2.jpg": "/senopulance/static/media/piconright2.2.545b11653a85fb318ce6.jpg",
+    "static/media/cool-men's-look.jpg": "/senopulance/static/media/cool-men's-look.540ad3381190e89af275.jpg",
+    "static/media/pinterest.png": "/senopulance/static/media/pinterest.0ec9a61afd22022ac962.png",
+    "index.html": "/senopulance/index.html",
+    "main.d4aab2f0.css.map": "/senopulance/static/css/main.d4aab2f0.css.map",
+    "main.c305fdbf.js.map": "/senopulance/static/js/main.c305fdbf.js.map",
+    "787.ddade4ab.chunk.js.map": "/senopulance/static/js/787.ddade4ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4aab2f0.css",
+    "static/js/main.c305fdbf.js"
+  ]
+}
