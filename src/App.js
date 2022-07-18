@@ -7,33 +7,30 @@ import {
   Link
 } from 'react-router-dom';
 import Home from './components/Home'
-import Popular from './components/Popular'
 import About from './components/About'
 import Help from './components/Help'
 
 function App() {
   const fontfamily ={
-    fontFamily:'Shadows Into Light',
+    fontFamily:'Darker Grotesque',
     fontWeight:'800',
     color:'#555454'
   };
   return (
     <div style={fontfamily} className="app-flex-container">
-      <div className='app-flex-item offer-bar'>BIG <span style={{fontSize:'30px',fontWeight:'900'}}>SALE</span> ENERGY - up to <span style={{fontSize:'30px',fontWeight:'900'}}>70%</span> DISCOUNT</div>
+      <div className='app-flex-item offer-bar'>BIG <span style={{fontSize:'30px',fontWeight:'500'}}>SALE</span> ENERGY - up to <span style={{fontSize:'30px',fontWeight:'500'}}>70%</span> DISCOUNT</div>
       <div className='app-flex-item title'><img src={titleImage} alt="senOpulance" className='titleImage'></img></div>
       <div className='app-flex-item routing'>
         <Router>
           <nav>
-            <Link to='/Home' className='app-nav-onlyforhome'>Home</Link>
-            <Link to='/Popular' className='app-nav'>Popular</Link>
+            <Link to='/Categories' className='app-nav-onlyforhome'>Home</Link>
             <Link to='/About' className='app-nav'>About</Link>
             <Link to='/Help' className='app-nav'>Help</Link>
           </nav>
           <main>
 
           <Routes>
-            <Route path='/Home' element={<Home/>}></Route>
-            <Route path='/Popular' element={<Popular/>}></Route>
+            <Route path='/Categories' element={<Home/>}></Route>
             <Route path='/About' element={<About/>}></Route>
             <Route path='/Help' element={<Help/>}></Route>
           </Routes>

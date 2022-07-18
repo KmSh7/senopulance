@@ -27,7 +27,7 @@ import opulenceimg2 from './pictures/op2.3.jpg';
 
 
 const Home = () => {
-  const width1 = "(max-width:625px)";
+  const width1 = "(max-width:675px)";
   function width1_img() {
     return (
       <>
@@ -127,6 +127,7 @@ const Home = () => {
         </Media>
         </a>
       </div>
+      <div className="container-nav-main">
       <div className="categories">
         <fieldset  className="cat-item men"><legend>MEN</legend><a href="#">
           <Media query="(max-width:675px)">
@@ -201,6 +202,81 @@ const Home = () => {
           </Media>
           </a></fieldset>
 
+      </div>
+      <div className="flex-main main">
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+        <div className="main-item"></div>
+      </div>
       </div>
     </div>
   );
