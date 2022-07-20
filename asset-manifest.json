@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/senopulance/static/css/main.62cc5293.css",
-    "main.js": "/senopulance/static/js/main.fa40a701.js",
+    "main.css": "/senopulance/static/css/main.7d4256b2.css",
+    "main.js": "/senopulance/static/js/main.4d815d7b.js",
     "static/js/787.ddade4ab.chunk.js": "/senopulance/static/js/787.ddade4ab.chunk.js",
     "static/media/mainimg2.1.jpg": "/senopulance/static/media/mainimg2.1.1d5d0c4e0c6d3ceae09a.jpg",
     "static/media/mainimg3.jpg": "/senopulance/static/media/mainimg3.896d19adc03074796f68.jpg",
     "static/media/leftpic1.jpg": "/senopulance/static/media/leftpic1.c7e92a7eed5b34665459.jpg",
     "static/media/rightpic1.jpg": "/senopulance/static/media/rightpic1.ea1a1173a84c42abf6e6.jpg",
+    "static/media/bgimg2.jpg": "/senopulance/static/media/bgimg2.73edc100778bf955c702.jpg",
     "static/media/jwel1.2.jpg": "/senopulance/static/media/jwel1.2.853438eae6d62d543029.jpg",
+    "static/media/hdr4.jpg": "/senopulance/static/media/hdr4.02863ab6161408d9c511.jpg",
     "static/media/men2.jpg": "/senopulance/static/media/men2.792bd042ad97b0d91d4c.jpg",
     "static/media/women1.6.jpg": "/senopulance/static/media/women1.6.a93e9a5f5185130869af.jpg",
     "static/media/summer1.jpg": "/senopulance/static/media/summer1.7a253bdf1d635a4e2e48.jpg",
@@ -27,13 +29,14 @@
     "static/media/piconright2.2.jpg": "/senopulance/static/media/piconright2.2.545b11653a85fb318ce6.jpg",
     "static/media/cool-men's-look.jpg": "/senopulance/static/media/cool-men's-look.540ad3381190e89af275.jpg",
     "static/media/pinterest.png": "/senopulance/static/media/pinterest.0ec9a61afd22022ac962.png",
+    "static/media/srch5.png": "/senopulance/static/media/srch5.91befde02f4adac27770.png",
     "index.html": "/senopulance/index.html",
-    "main.62cc5293.css.map": "/senopulance/static/css/main.62cc5293.css.map",
-    "main.fa40a701.js.map": "/senopulance/static/js/main.fa40a701.js.map",
+    "main.7d4256b2.css.map": "/senopulance/static/css/main.7d4256b2.css.map",
+    "main.4d815d7b.js.map": "/senopulance/static/js/main.4d815d7b.js.map",
     "787.ddade4ab.chunk.js.map": "/senopulance/static/js/787.ddade4ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62cc5293.css",
-    "static/js/main.fa40a701.js"
+    "static/css/main.7d4256b2.css",
+    "static/js/main.4d815d7b.js"
   ]
 }
