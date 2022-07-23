@@ -1,5 +1,46 @@
 .about{
+    background-color: rgb(255, 255, 255);
     height: 100%;
-    width:100%;
-    background-color: aqua;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 52vw 10vw;
+}
+.article{
+    margin-bottom:20%;
+    font-size: 3vw;
+    height: 200vw;
+    width: 80%;
+    position: relative;
+    margin-top: 20px;
+    left: 20px;
+}
+.article1{
+    margin-bottom:20%;
+    font-size: 3vw;
+    height: 421vw;
+    width: 80%;
+    position: relative;
+    margin-top: 50vw;
+    left: 20px;
+}
+#pic{
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+.writen{
+    position: absolute;
+    font-size: 14vw;
+    color:white;
+    z-index: +1;
+}
+.ab{
+    top:10vw;
+}
+.sen{
+    top:25vw;
+}
+.test{
+    position: absolute;
+    z-index: 0;
+    top:-0.001vw;
 }

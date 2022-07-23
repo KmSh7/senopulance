@@ -12,10 +12,10 @@ import menimg1 from './pictures/men1.jpg';
 import menimg2 from './pictures/men2.jpg';
 import womenimg1 from './pictures/women1.6.jpg';
 import womenimg2 from './pictures/women2.4.jpg';
-import itemsimg1 from './pictures/item1.1.jpg';
-import itemsimg2 from './pictures/item2.1.jpg';
-import jwelimg1 from './pictures/jwel1.2.jpg';
-import jwelimg2 from './pictures/jwel2.1.jpg';
+import itemsimg1 from './pictures/item1.jpg';
+import itemsimg2 from './pictures/item2.jpg';
+import jwelimg1 from './pictures/jwel1 (1).jpg';
+import jwelimg2 from './pictures/jwel2.jpg';
 import saleimg1 from './pictures/sale1.3.jpg';
 import saleimg2 from './pictures/sale2.1.jpg';
 import summerimg1 from './pictures/summer1.jpg';
@@ -24,6 +24,7 @@ import winterimg1 from './pictures/win1.1.jpg';
 import winterimg2 from './pictures/win2.1.jpg';
 import opulenceimg1 from './pictures/op1.4.jpg';
 import opulenceimg2 from './pictures/op2.3.jpg';
+import bgimg from "./pictures/bgimg2.jpg"
 
 
 const Home = () => {
@@ -83,11 +84,13 @@ const Home = () => {
     padding:'0px',
   };
   const catStyle = {
-    height: "100%",
-    width:'100%',
+    height: "95%",
+    width:'95%',
     // border: '1px solid rgb(236, 236, 236)',
     borderRadius: '0px',
     padding: '-90px',
+    position:"relative",
+    left:"2vh",
   };
   const catStyle2={
     height:'100%',

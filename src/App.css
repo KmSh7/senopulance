@@ -29,10 +29,11 @@ display: flex;
 flex:5%;
 border: 1px solid rgb(255, 255, 255);
 border-style: none none solid none;
+justify-content: space-between;
 }
 .titleImage{
   height:4.3vh;
-  width: 27vh;
+  width: 30vh;
   padding: 5px;
 }
 .routing{
@@ -63,6 +64,7 @@ top: 93%;
 width: 100%;
 height: 7%;
 padding: 0px;
+z-index: 2;
 } 
 .icon{
   height: 30px;
@@ -90,6 +92,7 @@ padding: 0px;
   background: url('./components/pictures/pinterest.png') no-repeat;
   background-size: 30px;
 }
+
 .printerest:hover{
   background: url('./components/pictures/printerest1.png') no-repeat;
   background-size: 30px;
@@ -113,4 +116,105 @@ padding: 0px;
 }
 .app-nav-onlyforhome:hover{
   text-decoration: underline;
+}
+
+.searchbar{
+  width:200px;
+  height:30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none none solid none;
+  margin-bottom: 2px;
+  position: relative;
+    top: -6px;
+}
+
+
+/* .searchbar:hover{
+  width:200px;
+  height:30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none none solid none;
+  margin-bottom: 2px;
+  position: relative;
+    top: -6px;
+} */
+.srcbarin{
+  display: none;
+}
+.x{
+  display: none;
+}
+@media (max-width:675px){
+.searchbar{
+display: none;
+}
+.searchbox{
+display: block;
+box-shadow: -5px 0px 10px rgb(70, 70, 70);
+/* border:1px solid rgb(202, 202, 202) ; */
+transform: scale(1.7);
+ height: 43%;
+ width: 50%;
+ z-index: 2;
+ position: absolute;
+ left: 25%;
+ top: 30%;
+ background-color: rgb(255, 255, 255);
+ border-radius: 5px;
+ position: fixed;
+}
+.srcbarin1{
+display: block;
+position: relative;
+transform: scale(0.9);
+width: 100%;
+margin-top:6px;
+border:1px solid rgb(180, 180, 180);
+border-style: none none solid none;
+position: fixed;
+}
+.srcbarin1:active{
+  border-style: none none solid none;
+  position: fixed;
+}
+.x1{
+  color: rgb(255, 0, 0);
+  display: block;
+  position: fixed;
+  z-index: 3;
+  cursor: pointer;
+  font-size: 50px;
+  top:7%;
+  left:50%;
+
+}
+.x1:active{
+  color: red;
+   position: fixed;
+}
+.srcicon:hover{
+color: aqua;
+}
+/* .offer-bar,.titleImage,.routing,.srcicon{
+  filter:blur(1.7px);
+} */
+.bit{
+  filter:blur(4px);
+}
+}
+@media(max-width:335px){
+  .titleImage{
+    background-color: rgb(255, 255, 255);
+    width: 95px;
+    height: 25px;
+    margin-bottom: 3px;
+  }
+  .logo{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 60px;
+    margin-bottom: 3px;
+  }
 }
