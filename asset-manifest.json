@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/senopulance/static/css/main.d723ef82.css",
-    "main.js": "/senopulance/static/js/main.4861ca9c.js",
+    "main.js": "/senopulance/static/js/main.8fd986b7.js",
     "static/js/787.ddade4ab.chunk.js": "/senopulance/static/js/787.ddade4ab.chunk.js",
     "static/media/about2.mp4": "/senopulance/static/media/about2.5af57e5731897cb59546.mp4",
     "static/media/mainimg2.1.jpg": "/senopulance/static/media/mainimg2.1.1d5d0c4e0c6d3ceae09a.jpg",
@@ -34,11 +34,11 @@
     "static/media/senopulance.png": "/senopulance/static/media/senopulance.8afd119c530864552d6f.png",
     "index.html": "/senopulance/index.html",
     "main.d723ef82.css.map": "/senopulance/static/css/main.d723ef82.css.map",
-    "main.4861ca9c.js.map": "/senopulance/static/js/main.4861ca9c.js.map",
+    "main.8fd986b7.js.map": "/senopulance/static/js/main.8fd986b7.js.map",
     "787.ddade4ab.chunk.js.map": "/senopulance/static/js/787.ddade4ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d723ef82.css",
-    "static/js/main.4861ca9c.js"
+    "static/js/main.8fd986b7.js"
   ]
 }
