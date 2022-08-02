@@ -29,17 +29,6 @@ function App() {
   };
 
   const [search, setSearch] = useState(Categories);
-  const [filterCat,setFilterCat]=useState(Categories);
-  function sameAsSearch() {
-    var mainoffer = document.getElementById("mainoffer");
-    var cat = document.getElementById("categories");
-    var box = document.getElementById("box");
-    if (cat.style.display == "none") {
-      mainoffer.style.display = "flex";
-      cat.style.display = "flex";
-      box.style.display = "none";
-    }
-  }
   const closeMenu=()=>{
     document.getElementById("totop").click();
     document.getElementById("click-nav").classList.remove("click-nav-apply");
